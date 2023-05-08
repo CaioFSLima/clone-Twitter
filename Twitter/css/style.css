@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    color: blue;
+}
+
+.img {
+    width: 500px;
+    height: 400px;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+}
+
+.right-side {
+    width: 350px;
+    margin-left: 40px;
+    margin-right: auto;
+    text-align: justify;
+    
+}
+
+.left-side {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-right: -20px;
+}
+
+.svg {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -4px;
+}
+
+.publi {
+    border: 1px solid rgb(186, 184, 184);
+    width: 600px;
+    margin-top: 20px;
+}
+
+.texto {
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 600px;
+    margin-left: 10px;
+    margin-bottom: -25px;
+}
+
+.engrenagem {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+.exp {
+    margin-left: 20px;
+}
+
+.fundo {
+    background-color: rgb(0, 157, 255);
+    width: 100%;
+    position: absolute;
+    margin-left: -31%;
+    text-align: center;
+    
+}
+
+.twitter {
+    color: rgb(0, 115, 255);
+}
+
+.info {
+    border: 1px solid;
+    border-radius: 10px;
+}
+.logins{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5px;
+    width: 250px;
+}
+.links{
+    text-decoration: none;
+}
+.info2{
+    text-align: justify;
+    gap: 10px;
+    margin-top: 10px;
+}
+.loginsBtn{
+    border-radius: 10px;
+    height: 30px;
+    background-color: white;
+    border-color: rgb(177, 176, 176);
+}
